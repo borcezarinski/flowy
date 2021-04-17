@@ -21,7 +21,9 @@
                     <option :value="item.id" :key="'approver-' + item.id" v-for="item in approvers">
                         {{item.name}}
                     </option>
+
                 </select>
+              <button class="btn btn-falcon-primary">TEST</button>
             </div>
             <div class="footer">
                 <button @click="handleClickCancelSaveNode">Cancel</button>
