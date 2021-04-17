@@ -51,7 +51,7 @@ function render(g, node, isSelected) {
 
   // body text
   let text = node.type === 'start'
-      ? 'Start'
+      ? node.name
       : (node.type === 'end' ? 'End' : (
               (!node.approvers || node.approvers.length === 0)
                   ? 'No approver'

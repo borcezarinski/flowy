@@ -13,9 +13,7 @@
     @mousewheel="handleChartMouseWheel"
     @mousedown="handleChartMouseDown($event)"
   >
-    <span id="position" class="unselectable">
-      {{ cursorToChartOffset.x + ", " + cursorToChartOffset.y }}
-    </span>
+
     <svg id="svg">
       <rect class="selection" height="0" width="0"></rect>
     </svg>
